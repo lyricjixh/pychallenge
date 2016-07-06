@@ -1,7 +1,7 @@
 #!/usr/bin/env python
-# challenge level 6
+# challenge level 07
 from PIL import Image
-import urllib,StringIO
+import urllib
 url = "http://www.pythonchallenge.com/pc/def/oxygen.png"
 img = urllib.urlopen(url).read()
 data = Image.open(StringIO.StringIO(img))
