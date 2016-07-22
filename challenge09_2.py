@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 # challenge level 09
+#!/usr/bin/env python2
+# PIL.ImageDraw.Draw.line(xy, fill=None, width=0), 
+# http://pillow.readthedocs.io/en/3.1.x/reference/ImageDraw.html#functions
+
 
 from PIL import Image, ImageDraw
 
